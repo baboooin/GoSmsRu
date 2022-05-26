@@ -1,4 +1,4 @@
-package main
+package go_sms_ru
 
 import (
 	"encoding/json"
@@ -6,7 +6,6 @@ import (
 	"io/ioutil"
 	"net/http"
 )
-
 
 type Smsru struct {
 	Token string
